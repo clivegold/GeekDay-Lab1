@@ -1,0 +1,59 @@
+
+  "staging_env_json": {},
+  "running_env_json": {},
+  "system_env_json": {
+    "VCAP_SERVICES": {
+      "rediscloud": [
+        {
+          "credentials": {
+            "hostname": "redis-10385.c15.us-east-1-4.ec2.cloud.redislabs.com",
+            "password": "ol2PPKvWdReZQXu2",
+            "port": "10385"
+          },
+          "syslog_drain_url": null,
+          "volume_mounts": [],
+          "label": "rediscloud",
+          "provider": null,
+          "plan": "30mb",
+          "name": "cliveredis",
+          "tags": [
+            "Data Stores",
+            "Web-based",
+            "Data Store",
+            "Caching",
+            "Messaging and Queuing",
+            "Data Management",
+            "key-value",
+            "IT Management",
+            "caching",
+            "redis"
+          ]
+        }
+      ]
+    }
+  },
+  "application_env_json": {
+    "VCAP_APPLICATION": {
+      "cf_api": "https://donotuseapi.run.pivotal.io",
+      "limits": {
+        "fds": 16384,
+        "mem": 64,
+        "disk": 1024
+      },
+      "application_name": "cliveapp",
+      "application_uris": [
+        "cliveapp.cfapps.io"
+      ],
+      "name": "cliveapp",
+      "space_name": "development",
+      "space_id": "3516d399-c525-44a1-a1f2-694a7b4b70ee",
+      "uris": [
+        "cliveapp.cfapps.io"
+      ],
+      "users": null,
+      "application_id": "26760175-61af-4f89-a843-45aab0142006",
+      "version": "a46359b9-5e42-48aa-94c2-0de88ffabd3a",
+      "application_version": "a46359b9-5e42-48aa-94c2-0de88ffabd3a"
+    }
+  }
+}

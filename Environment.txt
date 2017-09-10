@@ -7,7 +7,7 @@
         {
           "credentials": {
             "hostname": "redis-10385.c15.us-east-1-4.ec2.cloud.redislabs.com",
-            "password": "ol2PPKvWdReZQXu2",
+            "password": "xxxx",
             "port": "10385"
           },
           "syslog_drain_url": null,
